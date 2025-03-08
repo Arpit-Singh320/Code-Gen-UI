@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Orbitron:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Syncopate:wght@400;700&family=Russo+One&family=Chakra+Petch:wght@300;400;500;600;700&family=Days+One&display=swap');
 :root {
   --primary: #6a11cb;
   --secondary: #2575fc;
@@ -11,6 +12,46 @@
   --neon-blue: #4d4dff;
   --blockchain-gold: #f7931a;
 }
+
+/* NEW FONT STYLE START */
+
+/* NEW FONT STYLE END */
+/* BRAND NAME */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cormorant+Garamond:wght@700&display=swap');
+
+.brand-name {
+  font-family: 'Nunito', 'sans-serif';
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 0.02em;
+  position: relative;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.25rem 0;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.brand-name:hover {
+  transform: scale(1.01);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .brand-name {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-name {
+    font-size: 2.5rem;
+  }
+}
+
+
+/* BRAND NAME ENDS  */
 
 * {
   margin: 0;
